@@ -17,7 +17,7 @@ public class OpenAPIConfig {
     private Info apiInfo() {
         return new Info()
                 .title("SERVICE_API")
-                .description("FOR_WORKING_WITH_PHONE_SERVICE")
+                .description("FOR_WORKING_WITH_USER_SERVICE")
                 .version("VERSION")
                 .contact(apiContact());
 
